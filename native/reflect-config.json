@@ -1,0 +1,3859 @@
+[
+    {
+        "name": "org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "java.util.ArrayList",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "java.util.HashSet",
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "java.util.LinkedHashSet",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.ssl.DefaultSslBundleRegistry",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.demosimplecrudnative.sample.Sample",
+        "allDeclaredFields": true,
+        "allDeclaredConstructors": true,
+        "methods":
+        [
+            {
+                "name": "getDescription",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setDescription",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setId",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setName",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "getName",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getId",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.condition.OnWebApplicationCondition",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceBeanCreationFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.context.event.EventListenerMethodProcessor",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.info.ProjectInfoProperties$Build",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getLocation",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setLocation",
+                "parameterTypes":
+                [
+                    "org.springframework.core.io.Resource"
+                ]
+            },
+            {
+                "name": "setEncoding",
+                "parameterTypes":
+                [
+                    "java.nio.charset.Charset"
+                ]
+            },
+            {
+                "name": "getEncoding",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.rsocket.context.RSocketPortInfoApplicationContextInitializer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.ssl.JksSslBundleProperties",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getTruststore",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getKeystore",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.context.LifecycleProperties",
+        "queryAllDeclaredMethods": true,
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getTimeoutPerShutdownPhase",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setTimeoutPerShutdownPhase",
+                "parameterTypes":
+                [
+                    "java.time.Duration"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.java.Bucket",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.springframework.context.support.DefaultLifecycleProcessor",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.springframework.context.event.DefaultEventListenerFactory",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.r2dbc.NoConnectionFactoryBeanFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.NoUniqueBeanDefinitionFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.ConfigTreeConfigDataLocationResolver",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.properties.NotConstructorBoundInjectionFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.ConfigDataLoader",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializerDatabaseInitializerDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.r2dbc.ConnectionFactoryBeanCreationFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.DelegatingApplicationContextInitializer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.BindFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.availability.ApplicationAvailabilityBean",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties$Shutdown",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getAwaitTerminationPeriod",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setAwaitTerminationPeriod",
+                "parameterTypes":
+                [
+                    "java.time.Duration"
+                ]
+            },
+            {
+                "name": "isAwaitTermination",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setAwaitTermination",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.liquibase.LiquibaseDatabaseInitializerDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.java.Collection",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.ConfigTreeConfigDataLoader",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.properties.IncompatibleConfigurationFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.flyway.FlywayDatabaseInitializerDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.ssl.SslBundleProperties",
+        "methods":
+        [
+            {
+                "name": "setProtocol",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "getOptions",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getProtocol",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getKey",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializerDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.FailureAnalysisReporter",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.AutoConfigurationImportFilter",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.BeanCurrentlyInCreationFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.cloud.CloudFoundryVcapEnvironmentPostProcessor",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.beans.factory.config.BeanFactoryPostProcessor",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.ssl.SslProperties",
+        "queryAllDeclaredMethods": true,
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getBundle",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.ssl.PemSslBundleProperties",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getTruststore",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getKeystore",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.logging.java.JavaLoggingSystem$Factory",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.InvalidConfigurationPropertyValueFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.info.ProjectInfoProperties",
+        "queryAllDeclaredMethods": true,
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getBuild",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getGit",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.FailureAnalyzers",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.MutuallyExclusiveConfigurationPropertiesFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "ch.qos.logback.core.rolling.helper.DateTokenConverter",
+        "allPublicConstructors": true
+    },
+    {
+        "name": "org.springframework.aop.framework.ProxyConfig",
+        "methods":
+        [
+            {
+                "name": "setProxyTargetClass",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContextFactory",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.ssl.JksSslBundleProperties$Store",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setPassword",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "getType",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getPassword",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getProvider",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getLocation",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setType",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setProvider",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setLocation",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "applicationAvailability",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter",
+        "allPublicConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.env.SpringApplicationJsonEnvironmentPostProcessor",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.ConfigDataProperties",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                [
+                    "java.util.List",
+                    "org.springframework.boot.context.config.ConfigDataProperties$Activate"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration$PropertiesCouchbaseConnectionDetails",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties"
+                ]
+            },
+            {
+                "name": "couchbaseConnectionDetails",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "couchbaseClusterEnvironment",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.autoconfigure.couchbase.CouchbaseConnectionDetails",
+                    "org.springframework.beans.factory.ObjectProvider",
+                    "org.springframework.beans.factory.ObjectProvider"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.jooq.NoDslContextBeanFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.data.redis.RedisUrlSyntaxFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.session.JdbcIndexedSessionRepositoryDependsOnDatabaseInitializationDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties$Pool",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getSize",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setSize",
+                "parameterTypes":
+                [
+                    "int"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.env.PropertiesPropertySourceLoader",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties$Env",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getTimeouts",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getIo",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getSsl",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.ApplicationContextFactory",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.BeanNotOfRequiredTypeFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "ch.qos.logback.classic.LoggerContext"
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.ssl.SslProperties$Bundles",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getJks",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getPem",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                [
+                    "java.lang.String[]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.BackgroundPreinitializer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.java.env.ClusterEnvironment",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.demosimplecrudnative.config.CouchbaseConfig$$SpringCGLIB$$1",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.demosimplecrudnative.config.CouchbaseConfig$$SpringCGLIB$$0",
+        "allDeclaredConstructors": true,
+        "allDeclaredMethods": true,
+        "allDeclaredFields": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.mustache.MustacheTemplateAvailabilityProvider",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.demosimplecrudnative.config.CouchbaseConfig$$SpringCGLIB$$2",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "ch.qos.logback.classic.pattern.SyslogStartConverter",
+        "allPublicConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.orm.jpa.JpaDependsOnDatabaseInitializationDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.web.context.MissingWebServerFactoryBeanFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "sslPropertiesSslBundleRegistrar",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.autoconfigure.ssl.SslProperties"
+                ]
+            },
+            {
+                "name": "sslBundleRegistry",
+                "parameterTypes":
+                [
+                    "java.util.List"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.r2dbc.MultipleConnectionPoolConfigurationsFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.freemarker.FreeMarkerTemplateAvailabilityProvider",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.env.EnvironmentPostProcessorApplicationListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.logging.logback.ColorConverter",
+        "allPublicConstructors": true
+    },
+    {
+        "name": "org.springframework.context.ApplicationListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "java.sql.Date",
+        "condition":
+        {
+            "typeReachable": "java.sql.Date"
+        },
+        "methods":
+        [
+            {
+                "name": "toLocalDate",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "valueOf",
+                "parameterTypes":
+                [
+                    "java.time.LocalDate"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.ssl.SslPropertiesBundleRegistrar",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.ConfigDataNotFoundFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.demosimplecrudnative.sample.SampleService",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.java.Cluster",
+                    "com.couchbase.client.java.Collection"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.env.PropertySourceLoader",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.SpringBootExceptionReporter",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.info.ProjectInfoProperties$Git",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setEncoding",
+                "parameterTypes":
+                [
+                    "java.nio.charset.Charset"
+                ]
+            },
+            {
+                "name": "getEncoding",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getLocation",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setLocation",
+                "parameterTypes":
+                [
+                    "org.springframework.core.io.Resource"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.demosimplecrudnative.DemoSimplecrudNativeApplication$$SpringCGLIB$$0",
+        "allDeclaredConstructors": true,
+        "allDeclaredMethods": true,
+        "allDeclaredFields": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.context.logging.LoggingApplicationListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.FailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.ClearCachesApplicationListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.java.Cluster",
+        "queryAllDeclaredMethods": true,
+        "methods":
+        [
+            {
+                "name": "close",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.autoconfigure.info.ProjectInfoProperties"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.condition.OnBeanCondition",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.ConfigDataLocationResolver",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContextFactory",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "propertySourcesPlaceholderConfigurer",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.logging.log4j2.Log4J2LoggingSystem$Factory",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "applicationTaskExecutor",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.task.TaskExecutorBuilder"
+                ]
+            },
+            {
+                "name": "taskExecutorBuilder",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.autoconfigure.task.TaskExecutionProperties",
+                    "org.springframework.beans.factory.ObjectProvider",
+                    "org.springframework.beans.factory.ObjectProvider"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.task.TaskExecutionProperties$Pool",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getKeepAlive",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "isAllowCoreThreadTimeout",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setCoreSize",
+                "parameterTypes":
+                [
+                    "int"
+                ]
+            },
+            {
+                "name": "setMaxSize",
+                "parameterTypes":
+                [
+                    "int"
+                ]
+            },
+            {
+                "name": "getCoreSize",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getQueueCapacity",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setAllowCoreThreadTimeout",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            },
+            {
+                "name": "setQueueCapacity",
+                "parameterTypes":
+                [
+                    "int"
+                ]
+            },
+            {
+                "name": "getMaxSize",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setKeepAlive",
+                "parameterTypes":
+                [
+                    "java.time.Duration"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.NoSuchMethodFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.task.TaskExecutorBuilder",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAvailabilityProvider",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "byAnnotation",
+                "parameterTypes":
+                [
+                    "java.lang.Class"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.sql.init.dependency.DatabaseInitializerDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.slf4j.bridge.SLF4JBridgeHandler"
+    },
+    {
+        "name": "com.couchbase.demosimplecrudnative.config.CouchbaseConfig",
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "queryAllDeclaredMethods": true,
+        "fields":
+        [
+            {
+                "name": "bucketName"
+            },
+            {
+                "name": "username"
+            },
+            {
+                "name": "userPassword"
+            },
+            {
+                "name": "bootstrapHosts"
+            }
+        ],
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "collection",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.java.Bucket"
+                ]
+            },
+            {
+                "name": "bucket",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.java.Cluster"
+                ]
+            },
+            {
+                "name": "cluster",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.context.config.StandardConfigDataLocationResolver",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.web.embedded.tomcat.ConnectorStartFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.ssl.PemSslBundleProperties$Store",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getCertificate",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setPrivateKey",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setType",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "getPrivateKey",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getType",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setCertificate",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.logging.LoggingSystemFactory",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.task.TaskExecutionProperties$Shutdown",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "isAwaitTermination",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getAwaitTerminationPeriod",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setAwaitTerminationPeriod",
+                "parameterTypes":
+                [
+                    "java.time.Duration"
+                ]
+            },
+            {
+                "name": "setAwaitTermination",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.demosimplecrudnative.DemoSimplecrudNativeApplication",
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "forceAutoProxyCreatorToUseClassProxying",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.context.FileEncodingApplicationListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.r2dbc.init.R2dbcScriptDatabaseInitializerDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.event.EventPublishingRunListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.ContextIdApplicationContextInitializer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "java.lang.String"
+    },
+    {
+        "name": "org.springframework.boot.context.config.AnsiOutputApplicationListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.demosimplecrudnative.sample.SampleCommandLine",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                [
+                    "com.couchbase.demosimplecrudnative.sample.SampleService"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.quartz.SchedulerDependsOnDatabaseInitializationDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.env.EnvironmentPostProcessor",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.logging.logback.LogbackLoggingSystem$Factory",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.integration.IntegrationPropertiesEnvironmentPostProcessor",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.context.properties.BoundConfigurationProperties",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.web.context.ServerPortInfoApplicationContextInitializer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.condition.ConditionEvaluationReportAutoConfigurationImportListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.PortInUseFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.SpringApplicationRunListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.env.CoreEnvironment",
+        "methods":
+        [
+            {
+                "name": "close",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafTemplateAvailabilityProvider",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.env.RandomValuePropertySourceEnvironmentPostProcessor",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.jdbc.SpringJdbcDependsOnDatabaseInitializationDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.condition.OnClassCondition",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "taskSchedulerBuilder",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties",
+                    "org.springframework.beans.factory.ObjectProvider"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.web.servlet.JspTemplateAvailabilityProvider",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.diagnostics.analyzer.NoSuchBeanDefinitionFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.env.YamlPropertySourceLoader",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter",
+        "allPublicConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.demosimplecrudnative.DemoSimplecrudNativeApplication__ApplicationContextInitializer",
+        "condition":
+        {
+            "typeReachable": "com.couchbase.demosimplecrudnative.DemoSimplecrudNativeApplication"
+        },
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitializationDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties",
+        "queryAllDeclaredMethods": true,
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setSchemaLocations",
+                "parameterTypes":
+                [
+                    "java.util.List"
+                ]
+            },
+            {
+                "name": "setUsername",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setMode",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.sql.init.DatabaseInitializationMode"
+                ]
+            },
+            {
+                "name": "getPassword",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getPlatform",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setEncoding",
+                "parameterTypes":
+                [
+                    "java.nio.charset.Charset"
+                ]
+            },
+            {
+                "name": "setPlatform",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "getMode",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "isContinueOnError",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setContinueOnError",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            },
+            {
+                "name": "getEncoding",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getDataLocations",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getUsername",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setDataLocations",
+                "parameterTypes":
+                [
+                    "java.util.List"
+                ]
+            },
+            {
+                "name": "getSchemaLocations",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setSeparator",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "getSeparator",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setPassword",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.jooq.JooqDependsOnDatabaseInitializationDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.orm.jpa.JpaDatabaseInitializerDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.task.TaskSchedulingProperties",
+        "queryAllDeclaredMethods": true,
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getThreadNamePrefix",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getPool",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getShutdown",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setThreadNamePrefix",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.context.ApplicationContextInitializer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.ConfigDataProperties$Activate",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.cloud.CloudPlatform",
+                    "java.lang.String[]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.AutoConfigurationImportListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.DelegatingApplicationListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.BindValidationFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "defaultLifecycleProcessor",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.autoconfigure.context.LifecycleProperties"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.SharedMetadataReaderFactoryContextInitializer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.r2dbc.MissingR2dbcPoolDependencyFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.builder.ParentContextCloserApplicationListener",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.properties.ConfigurationPropertiesBinder$ConfigurationPropertiesBinderFactory",
+        "queryAllDeclaredMethods": true,
+        "queriedMethods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.yaml.snakeyaml.Yaml",
+        "condition":
+        {
+            "typeReachable": "org.springframework.boot.env.YamlPropertySourceLoader"
+        }
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.batch.JobRepositoryDependsOnDatabaseInitializationDetector",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.SpringApplication",
+        "methods":
+        [
+            {
+                "name": "setLazyInitialization",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            },
+            {
+                "name": "setBeanNameGenerator",
+                "parameterTypes":
+                [
+                    "org.springframework.beans.factory.support.BeanNameGenerator"
+                ]
+            },
+            {
+                "name": "setSources",
+                "parameterTypes":
+                [
+                    "java.util.Set"
+                ]
+            },
+            {
+                "name": "getSources",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setBanner",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.Banner"
+                ]
+            },
+            {
+                "name": "getEnvironmentPrefix",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setHeadless",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            },
+            {
+                "name": "getApplicationStartup",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setBannerMode",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.Banner$Mode"
+                ]
+            },
+            {
+                "name": "setApplicationContextFactory",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.ApplicationContextFactory"
+                ]
+            },
+            {
+                "name": "setListeners",
+                "parameterTypes":
+                [
+                    "java.util.Collection"
+                ]
+            },
+            {
+                "name": "setDefaultProperties",
+                "parameterTypes":
+                [
+                    "java.util.Map"
+                ]
+            },
+            {
+                "name": "setResourceLoader",
+                "parameterTypes":
+                [
+                    "org.springframework.core.io.ResourceLoader"
+                ]
+            },
+            {
+                "name": "getClassLoader",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setAddCommandLineProperties",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            },
+            {
+                "name": "setAddConversionService",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            },
+            {
+                "name": "getAdditionalProfiles",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getAllSources",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setAdditionalProfiles",
+                "parameterTypes":
+                [
+                    "java.lang.String[]"
+                ]
+            },
+            {
+                "name": "getListeners",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setMainApplicationClass",
+                "parameterTypes":
+                [
+                    "java.lang.Class"
+                ]
+            },
+            {
+                "name": "setRegisterShutdownHook",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            },
+            {
+                "name": "setEnvironmentPrefix",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setAllowBeanDefinitionOverriding",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            },
+            {
+                "name": "setInitializers",
+                "parameterTypes":
+                [
+                    "java.util.Collection"
+                ]
+            },
+            {
+                "name": "setEnvironment",
+                "parameterTypes":
+                [
+                    "org.springframework.core.env.ConfigurableEnvironment"
+                ]
+            },
+            {
+                "name": "getInitializers",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getMainApplicationClass",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setApplicationStartup",
+                "parameterTypes":
+                [
+                    "org.springframework.core.metrics.ApplicationStartup"
+                ]
+            },
+            {
+                "name": "setLogStartupInfo",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            },
+            {
+                "name": "getSpringBootExceptionHandler",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setAllowCircularReferences",
+                "parameterTypes":
+                [
+                    "boolean"
+                ]
+            },
+            {
+                "name": "getWebApplicationType",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setWebApplicationType",
+                "parameterTypes":
+                [
+                    "org.springframework.boot.WebApplicationType"
+                ]
+            },
+            {
+                "name": "getResourceLoader",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.context.support.PropertySourcesPlaceholderConfigurer",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties",
+        "queryAllDeclaredMethods": true,
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getEnv",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setConnectionString",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "getConnectionString",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getPassword",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getUsername",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setPassword",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setUsername",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.aop.framework.ProxyProcessorSupport",
+        "methods":
+        [
+            {
+                "name": "setOrder",
+                "parameterTypes":
+                [
+                    "int"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.BeanDefinitionOverrideFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "ch.qos.logback.core.rolling.helper.IntegerTokenConverter",
+        "allPublicConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.ConfigDataLocation",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                [
+                    "boolean",
+                    "java.lang.String",
+                    "org.springframework.boot.origin.Origin"
+                ]
+            },
+            {
+                "name": "of",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.reactor.DebugAgentEnvironmentPostProcessor",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.context.config.StandardConfigDataLoader",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.task.TaskSchedulerBuilder",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.springframework.boot.autoconfigure.task.TaskExecutionProperties",
+        "queryAllDeclaredMethods": true,
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "setThreadNamePrefix",
+                "parameterTypes":
+                [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "getPool",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getThreadNamePrefix",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getShutdown",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.InvalidConfigurationPropertyNameFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "org.springframework.boot.diagnostics.analyzer.UnboundConfigurationPropertyFailureAnalyzer",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.deps.org.iq80.snappy.SlowMemory",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.deps.org.iq80.snappy.UnsafeMemory",
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.deps.org.iq80.snappy.Memory"
+    },
+    {
+        "name": "byte[]"
+    },
+    {
+        "name": "ch.qos.logback.classic.encoder.PatternLayoutEncoder",
+        "allPublicMethods": true,
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "ch.qos.logback.classic.pattern.DateConverter",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "ch.qos.logback.classic.pattern.LevelConverter",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "ch.qos.logback.classic.pattern.LineSeparatorConverter",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "ch.qos.logback.classic.pattern.LoggerConverter",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "ch.qos.logback.classic.pattern.MessageConverter",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "ch.qos.logback.classic.pattern.ThreadConverter",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "ch.qos.logback.core.ConsoleAppender",
+        "allPublicMethods": true,
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.config.AbstractBucketConfig",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.client.core.config.AlternateAddress",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.config.BucketCapabilities",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.client.core.config.BucketConfig",
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.client.core.config.ClusterCapabilities",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.client.core.config.CouchbaseBucketConfig",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.config.GlobalConfig",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.config.NodeInfo",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.config.PartitionInfo",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.config.PortInfo",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.deps.com.fasterxml.jackson.databind.deser.BeanDeserializerModifier[]"
+    },
+    {
+        "name": "com.couchbase.client.core.deps.com.fasterxml.jackson.databind.deser.Deserializers[]"
+    },
+    {
+        "name": "com.couchbase.client.core.deps.com.fasterxml.jackson.databind.ext.Java7HandlersImpl",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.com.fasterxml.jackson.databind.ser.BeanSerializerModifier[]"
+    },
+    {
+        "name": "com.couchbase.client.core.deps.com.fasterxml.jackson.databind.ser.Serializers[]"
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.buffer.AbstractByteBufAllocator",
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.buffer.AbstractReferenceCountedByteBuf",
+        "fields":
+        [
+            {
+                "name": "refCnt"
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.ChannelDuplexHandler",
+        "methods":
+        [
+            {
+                "name": "bind",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "close",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "connect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "deregister",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "disconnect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "flush",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "read",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "write",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.ChannelInboundHandlerAdapter",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelInactive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "channelReadComplete",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRegistered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelUnregistered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelWritabilityChanged",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            },
+            {
+                "name": "userEventTriggered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.ChannelInitializer",
+        "methods":
+        [
+            {
+                "name": "channelRegistered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.CombinedChannelDuplexHandler",
+        "methods":
+        [
+            {
+                "name": "bind",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelInactive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "channelReadComplete",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRegistered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelUnregistered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelWritabilityChanged",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "close",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "connect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "deregister",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "disconnect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            },
+            {
+                "name": "flush",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "read",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "userEventTriggered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "write",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.DefaultChannelPipeline$HeadContext",
+        "methods":
+        [
+            {
+                "name": "bind",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelInactive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "channelReadComplete",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRegistered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelUnregistered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelWritabilityChanged",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "close",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "connect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "deregister",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "disconnect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            },
+            {
+                "name": "flush",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "read",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "userEventTriggered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "write",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.DefaultChannelPipeline$TailContext",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelInactive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "channelReadComplete",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRegistered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelUnregistered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelWritabilityChanged",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            },
+            {
+                "name": "userEventTriggered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.DefaultFileRegion"
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.epoll.EpollSocketChannel",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.epoll.NativeDatagramPacketArray$NativeDatagramPacket"
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.socket.nio.NioSocketChannel",
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredClasses": true,
+        "allPublicClasses": true
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.unix.DatagramSocketAddress"
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.unix.PeerCredentials"
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.handler.codec.ByteToMessageDecoder",
+        "methods":
+        [
+            {
+                "name": "channelInactive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "channelReadComplete",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "userEventTriggered",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.handler.codec.http.HttpClientCodec"
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.handler.flush.FlushConsolidationHandler",
+        "methods":
+        [
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "channelReadComplete",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelWritabilityChanged",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "close",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "disconnect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            },
+            {
+                "name": "flush",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.util.AbstractReferenceCounted",
+        "fields":
+        [
+            {
+                "name": "refCnt"
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.util.ReferenceCountUtil",
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.util.internal.NativeLibraryUtil",
+        "methods":
+        [
+            {
+                "name": "loadLibrary",
+                "parameterTypes":
+                [
+                    "java.lang.String",
+                    "boolean"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+        "fields":
+        [
+            {
+                "name": "producerLimit",
+                "allowUnsafeAccess": true
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+        "fields":
+        [
+            {
+                "name": "consumerIndex",
+                "allowUnsafeAccess": true
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+        "fields":
+        [
+            {
+                "name": "producerIndex",
+                "allowUnsafeAccess": true
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField",
+        "fields":
+        [
+            {
+                "name": "consumerIndex",
+                "allowUnsafeAccess": true
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
+        "fields":
+        [
+            {
+                "name": "producerIndex",
+                "allowUnsafeAccess": true
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField",
+        "fields":
+        [
+            {
+                "name": "producerLimit",
+                "allowUnsafeAccess": true
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.org.jctools.queues.MpscArrayQueueConsumerIndexField",
+        "fields":
+        [
+            {
+                "name": "consumerIndex",
+                "allowUnsafeAccess": true
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.org.jctools.queues.MpscArrayQueueProducerIndexField",
+        "fields":
+        [
+            {
+                "name": "producerIndex",
+                "allowUnsafeAccess": true
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.org.jctools.queues.MpscArrayQueueProducerLimitField",
+        "fields":
+        [
+            {
+                "name": "producerLimit",
+                "allowUnsafeAccess": true
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.endpoint.BaseEndpoint$1"
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.ChunkedHandlerSwitcher",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "write",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.PipelineErrorHandler",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelInactive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.chunk.ChunkedMessageHandler",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelInactive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "write",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.ErrorMap",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.ErrorMap$ErrorAttribute",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.ErrorMap$ErrorCode",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.ErrorMap$RetrySpecification",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.ErrorMap$RetryStrategy",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.ErrorMapLoadingHandler",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "connect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.FeatureNegotiatingHandler",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "connect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.KeyValueMessageHandler",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelInactive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "write",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.MemcacheProtocolDecodeHandler"
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.MemcacheProtocolVerificationHandler",
+        "methods":
+        [
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "write",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.SaslAuthenticationHandler",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "connect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.SaslListMechanismsHandler",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "connect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.SelectBucketHandler",
+        "methods":
+        [
+            {
+                "name": "channelActive",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "channelRead",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "connect",
+                "parameterTypes":
+                [
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelHandlerContext",
+                    "java.net.SocketAddress",
+                    "java.net.SocketAddress",
+                    "com.couchbase.client.core.deps.io.netty.channel.ChannelPromise"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.kv.ServerFeature[]"
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.query.QueryHandlerSwitcher"
+    },
+    {
+        "name": "com.couchbase.client.core.io.netty.query.QueryMessageHandler"
+    },
+    {
+        "name": "com.couchbase.client.core.logging.RedactableArgument",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "com.couchbase.client.core.retry.RetryReason",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.client.core.service.ServiceState",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.couchbase.client.core.service.ServiceType",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "com.sun.crypto.provider.HmacCore$HmacSHA512",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "com.sun.jndi.dns.DnsContextFactory",
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredClasses": true,
+        "allPublicClasses": true
+    },
+    {
+        "name": "com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "java.io.FileDescriptor"
+    },
+    {
+        "name": "java.io.FilePermission"
+    },
+    {
+        "name": "java.io.IOException"
+    },
+    {
+        "name": "java.io.Serializable",
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "java.lang.Comparable",
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "java.lang.Double",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true,
+        "allDeclaredConstructors": true
+    },
+    {
+        "name": "java.lang.Number",
+        "allDeclaredFields": true,
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "java.lang.OutOfMemoryError"
+    },
+    {
+        "name": "java.lang.RuntimeException"
+    },
+    {
+        "name": "java.lang.RuntimePermission"
+    },
+    {
+        "name": "java.lang.Thread",
+        "fields":
+        [
+            {
+                "name": "contextClassLoader"
+            },
+            {
+                "name": "inheritableThreadLocals"
+            },
+            {
+                "name": "threadLocals"
+            }
+        ]
+    },
+    {
+        "name": "java.lang.constant.Constable",
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "java.lang.constant.ConstantDesc",
+        "allDeclaredMethods": true
+    },
+    {
+        "name": "java.lang.management.ManagementFactory",
+        "methods":
+        [
+            {
+                "name": "getRuntimeMXBean",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "java.lang.management.RuntimeMXBean",
+        "methods":
+        [
+            {
+                "name": "getInputArguments",
+                "parameterTypes":
+                []
+            },
+            {
+                "name": "getName",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "java.net.InetSocketAddress"
+    },
+    {
+        "name": "java.net.NetPermission"
+    },
+    {
+        "name": "java.net.PortUnreachableException"
+    },
+    {
+        "name": "java.net.SocketPermission"
+    },
+    {
+        "name": "java.net.URLPermission",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                [
+                    "java.lang.String",
+                    "java.lang.String"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "java.nio.Bits",
+        "fields":
+        [
+            {
+                "name": "UNALIGNED"
+            }
+        ]
+    },
+    {
+        "name": "java.nio.Buffer",
+        "fields":
+        [
+            {
+                "name": "address"
+            }
+        ]
+    },
+    {
+        "name": "java.nio.ByteBuffer",
+        "methods":
+        [
+            {
+                "name": "alignedSlice",
+                "parameterTypes":
+                [
+                    "int"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "java.nio.DirectByteBuffer",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                [
+                    "long",
+                    "int"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "java.nio.channels.ClosedChannelException"
+    },
+    {
+        "name": "java.nio.channels.FileChannel"
+    },
+    {
+        "name": "java.security.AllPermission"
+    },
+    {
+        "name": "java.security.MessageDigestSpi"
+    },
+    {
+        "name": "java.security.SecureRandomParameters"
+    },
+    {
+        "name": "java.security.SecurityPermission"
+    },
+    {
+        "name": "java.util.PropertyPermission"
+    },
+    {
+        "name": "javax.management.ObjectName"
+    },
+    {
+        "name": "javax.net.ssl.SSLEngine",
+        "methods":
+        [
+            {
+                "name": "getApplicationProtocol",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "jdk.internal.misc.Unsafe",
+        "methods":
+        [
+            {
+                "name": "getUnsafe",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "org.slf4j.Logger"
+    },
+    {
+        "name": "sun.misc.Unsafe",
+        "fields":
+        [
+            {
+                "name": "theUnsafe"
+            }
+        ],
+        "methods":
+        [
+            {
+                "name": "copyMemory",
+                "parameterTypes":
+                [
+                    "java.lang.Object",
+                    "long",
+                    "java.lang.Object",
+                    "long",
+                    "long"
+                ]
+            },
+            {
+                "name": "getAndAddLong",
+                "parameterTypes":
+                [
+                    "java.lang.Object",
+                    "long",
+                    "long"
+                ]
+            },
+            {
+                "name": "getAndSetObject",
+                "parameterTypes":
+                [
+                    "java.lang.Object",
+                    "long",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "invokeCleaner",
+                "parameterTypes":
+                [
+                    "java.nio.ByteBuffer"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "sun.nio.ch.SelectorImpl",
+        "fields":
+        [
+            {
+                "name": "publicSelectedKeys"
+            },
+            {
+                "name": "selectedKeys"
+            }
+        ]
+    },
+    {
+        "name": "sun.security.provider.NativePRNG",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "sun.security.provider.SHA",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "sun.security.provider.SHA5$SHA512",
+        "methods":
+        [
+            {
+                "name": "<init>",
+                "parameterTypes":
+                []
+            }
+        ]
+    },
+    {
+        "name": "com.couchbase.client.core.deps.io.netty.channel.local.LocalAddress"
+    },
+    {
+        "name": "com.couchbase.client.core.kv.CoreRangeScanId"
+    },
+    {
+        "name": "com.couchbase.client.java.codec.JacksonJsonSerializer$PreflightCheckSubject"
+    },
+    {
+        "name": "com.couchbase.client.java.codec.JacksonJsonSerializer"
+    },
+    {
+        "name": "com.couchbase.client.core.msg.CancellationReason",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    },
+    {
+        "name": "com.couchbase.client.core.util.CoreAsyncUtils",
+        "allDeclaredConstructors": true,
+        "allPublicConstructors": true,
+        "allDeclaredMethods": true,
+        "allPublicMethods": true,
+        "allDeclaredFields": true,
+        "allPublicFields": true
+    }
+]

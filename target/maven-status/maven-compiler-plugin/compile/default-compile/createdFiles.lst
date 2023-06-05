@@ -1,0 +1,6 @@
+com/couchbase/demosimplecrudnative/sample/Sample$SampleBuilder.class
+com/couchbase/demosimplecrudnative/config/CouchbaseConfig.class
+com/couchbase/demosimplecrudnative/sample/SampleService.class
+com/couchbase/demosimplecrudnative/DemoSimplecrudNativeApplication.class
+com/couchbase/demosimplecrudnative/sample/SampleCommandLine.class
+com/couchbase/demosimplecrudnative/sample/Sample.class

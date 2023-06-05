@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.1.1-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.couchbase</groupId>
+    <artifactId>graalvm-springboot-simplecrud</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>graalvm-springboot-simplecrud</name>
+    <description>graalvm-springboot-simplecrud</description>
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.couchbase.client</groupId>
+            <artifactId>java-client</artifactId>
+            <version>3.4.6</version>
+        </dependency>
+        <!--<dependency>
+            <groupId>org.iq80.snappy</groupId>
+            <artifactId>snappy</artifactId>
+            <version>0.4</version>
+        </dependency>
+        -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.graalvm.buildtools</groupId>
+                <artifactId>native-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>build-native</id>
+                        <goals>
+                            <goal>compile-no-fork</goal>
+                        </goals>
+                        <phase>package</phase>
+                    </execution>
+                   <!--  <execution>
+                        <id>add-reachability-metadata</id>
+                        <goals>
+                            <goal>add-reachability-metadata</goal>
+                        </goals>
+                    </execution> -->
+                </executions>
+                <configuration>
+                    <classesDirectory>${project.build.outputDirectory}</classesDirectory>
+                    <metadataRepository>
+                        <enabled>true</enabled>
+                    </metadataRepository>
+                    <agent>
+                        <enabled>true</enabled>
+                        <defaultMode>Standard</defaultMode>
+                        <options>
+                            <builtinCallerFilter>true</builtinCallerFilter>
+                            <builtinHeuristicFilter>true</builtinHeuristicFilter>
+                            <enableExperimentalPredefinedClasses>true</enableExperimentalPredefinedClasses>
+                            <enableExperimentalUnsafeAllocationTracing>true</enableExperimentalUnsafeAllocationTracing>
+                            <trackReflectionMetadata>true</trackReflectionMetadata>
+                        </options>
+                        <metadataCopy>
+                            <merge>true</merge>
+                        </metadataCopy>
+                    </agent>
+                    <skipNativeTests>true</skipNativeTests>
+                    <buildArgs combine.children="append">
+                        <buildArg>--trace-object-instantiation=com.couchbase.client.core.msg.CancellationReason,java.util.logging.Level,com.couchbase.client.core.deps.org.iq80.snappy.SnappyInternalUtils,com.couchbase.client.core.deps.org.iq80.snappy.UnsafeMemory,com.couchbase.client.core.deps.org.iq80.snappy.SlowMemory</buildArg>
+                        <buildArg>-H:ReflectionConfigurationFiles=native/reflect-config.json</buildArg>
+                        <buildArg>-H:JNIConfigurationFiles=native/jni-config.json</buildArg>
+                        <buildArg>-H:SerializationConfigurationFiles=native/serialization-config.json</buildArg>
+                        <buildArg>-H:+ReportExceptionStackTraces</buildArg>
+                        <buildArg>--initialize-at-build-time=java.util.logging.Level</buildArg>
+                        <buildArg>--initialize-at-run-time=com.couchbase.client.core.deps.org.iq80.snappy.SnappyInternalUtils,com.couchbase.client.core.deps.org.iq80.snappy.UnsafeMemory,com.couchbase.client.core.deps.org.iq80.snappy.SlowMemory,org.graalvm.nativebridge.jni.JNIExceptionWrapperEntryPoints,com.couchbase.client.core.util.CoreAsyncUtils,com.couchbase.demosimplecrudnative.sample.Sample,com.couchbase.client.core.deps.io.netty.channel.local.LocalAddress,com.couchbase.client.core.kv.CoreRangeScanId,com.couchbase.client.core.deps.io.netty.channel.kqueue.KQueueEventArray,com.couchbase.client.core.deps.io.netty.channel.kqueue.KQueueEventLoop,com.couchbase.client.core.deps.io.netty.channel.kqueue.Native,com.couchbase.client.core.deps.io.netty.handler.ssl.ConscryptAlpnSslEngine,com.couchbase.client.core.deps.io.netty.handler.ssl.JdkNpnApplicationProtocolNegotiator,com.couchbase.client.core.deps.io.netty.handler.ssl.JettyNpnSslEngine,com.couchbase.client.core.deps.io.netty.util.internal.logging.Log4JLogger,com.couchbase.client.core.deps.io.netty.handler.ssl.JdkNpnApplicationProtocolNegotiator,com.couchbase.client.core.deps.io.netty.handler.ssl.JettyAlpnSslEngine$ServerEngine,com.couchbase.client.core.deps.io.netty.handler.codec.http.HttpObjectEncoder,com.couchbase.client.core.io.netty.SslHandlerFactory,com.couchbase.client.java.codec.JacksonJsonSerializer,com.couchbase.client.java.codec.JacksonJsonSerializer$PreflightCheckSubject,com.couchbase.client.core.deps.io.netty</buildArg>
+                    </buildArgs>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.codehaus.plexus</groupId>
+                        <artifactId>plexus-utils</artifactId>
+                        <version>3.5.1</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>spring-snapshots</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/snapshot</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spring-snapshots</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/snapshot</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
+
+
+</project>

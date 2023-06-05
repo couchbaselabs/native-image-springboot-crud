@@ -1,0 +1,37 @@
+package com.couchbase.demosimplecrudnative.sample;
+
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import java.util.UUID;
+
+@Slf4j
+@Component
+public class SampleCommandLine implements CommandLineRunner {
+    final SampleService service;
+
+    public SampleCommandLine(SampleService service) {
+        this.service = service;
+    }
+
+    public Sample createSample(){
+        return Sample.builder().name(UUID.randomUUID().toString()).description(UUID.randomUUID().toString()).build();
+    }
+
+    public void print(Sample sample) {
+        log.info("printing {}",sample);
+    }
+
+    @Override
+    public void run(String... args) throws Exception {
+        log.info("Hello World");
+        Sample doc = createSample();
+        print(doc);
+
+        Sample returned = service.save(doc);
+        Sample result = service.get(returned.getId());
+        print(result);
+        log.info("Goodbye World");
+    }
+}
