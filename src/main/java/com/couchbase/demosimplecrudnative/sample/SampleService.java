@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.UUID;
 
+import static java.lang.String.format;
+
 @Service
 public class SampleService {
     final Cluster cluster;
@@ -46,6 +48,6 @@ public class SampleService {
     }
 
     public List<Sample> getAll() {
-        return cluster.query("SELECT * FROM _.collection").rowsAs(Sample.class); //TODO set max items for pagination
+        return cluster.query(format("SELECT a.* FROM `%s`.`%s`.`%s` a",sampleCollection.bucketName(),sampleCollection.scopeName(), sampleCollection.name())).rowsAs(Sample.class); //TODO set max items for pagination
     }
 }

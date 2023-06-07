@@ -1,5 +1,8 @@
 [
   {
     "name": "java.util.logging.Level"
+  },
+  {
+    "name": "com.couchbase.demosimplecrudnative.sample.Sample"
   }
 ]

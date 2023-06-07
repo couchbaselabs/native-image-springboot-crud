@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
 import java.util.UUID;
 
 @Slf4j
@@ -32,6 +33,10 @@ public class SampleCommandLine implements CommandLineRunner {
         Sample returned = service.save(doc);
         Sample result = service.get(returned.getId());
         print(result);
+        log.info("Get all docs...");
+        List<Sample> samples = service.getAll();
+        log.info(" - found {}", samples.size());
+        samples.forEach(this::print);
         log.info("Goodbye World");
     }
 }
