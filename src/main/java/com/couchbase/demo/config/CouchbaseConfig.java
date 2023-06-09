@@ -1,9 +1,9 @@
-package com.couchbase.demosimplecrudnative.config;
+package com.couchbase.demo.config;
 
 import com.couchbase.client.java.Bucket;
 import com.couchbase.client.java.Cluster;
 import com.couchbase.client.java.Collection;
-import com.couchbase.demosimplecrudnative.sample.Sample;
+import com.couchbase.demo.sample.Sample;
 import org.springframework.aot.hint.annotation.RegisterReflectionForBinding;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

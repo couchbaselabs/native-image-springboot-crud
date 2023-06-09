@@ -1,4 +1,4 @@
-package com.couchbase.demosimplecrudnative.sample;
+package com.couchbase.demo.sample;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

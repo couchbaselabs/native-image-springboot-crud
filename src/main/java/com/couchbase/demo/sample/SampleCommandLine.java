@@ -1,4 +1,4 @@
-package com.couchbase.demosimplecrudnative.sample;
+package com.couchbase.demo.sample;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;

@@ -1,4 +1,4 @@
-package com.couchbase.demosimplecrudnative;
+package com.couchbase.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

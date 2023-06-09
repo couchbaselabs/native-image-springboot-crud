@@ -1,9 +1,7 @@
-package com.couchbase.demosimplecrudnative.sample;
+package com.couchbase.demo.sample;
 
-import com.couchbase.client.core.util.CoreAsyncUtils;
 import com.couchbase.client.java.Cluster;
 import com.couchbase.client.java.Collection;
-import com.couchbase.client.java.json.JsonObject;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
